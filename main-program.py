@@ -101,7 +101,7 @@ def computing():
             while True:
                 while True:
                     height = input('输入高: ')
-                    if height.replace(',', '').isdigit():
+                    if height.replace('.', '').isdigit():
                         height = float(height)
                         break
                     else:
